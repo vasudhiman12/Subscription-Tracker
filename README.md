@@ -85,32 +85,29 @@ EMAIL_FROM_ADDRESS=
 
 JWT_SECRET=
 APP_BASE_URL=
-Getting Started
+`````
 
-Clone the repository
+## Getting Started
 
-Install dependencies
+1. Clone the repository  
+2. Install dependencies  
+3. Configure environment variables  
+4. Start the development server  
+5. Deploy to your preferred cloud or serverless platform  
 
-Configure environment variables
+---
 
-Start the development server
+## Background Jobs & Scheduling
 
-Deploy to your preferred cloud or serverless platform
+- Subscription checks run on a scheduled interval
+- Jobs are powered by Upstash for reliability and scalability
+- No dedicated worker server required
 
-Background Jobs & Scheduling
+---
 
-Subscription checks run on a scheduled interval
+## Use Cases
 
-Jobs are powered by Upstash for reliability and scalability
-
-No dedicated worker server required
-
-Use Cases
-
-SaaS subscription tracking
-
-Personal finance or budgeting apps
-
-Subscription reminder services
-
-Admin dashboards for subscription management
+- SaaS subscription tracking
+- Personal finance or budgeting apps
+- Subscription reminder services
+- Admin dashboards for subscription management
